@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/culinary_logic
+    username: YOUR_MYSQL_USERNAME
+    password: YOUR_MYSQL_PASSWORD
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+culinary:
+  gemini:
+    api-key: YOUR_GEMINI_API_KEY
+    model: gemini-1.5-flash
+  youtube:
+    api-key: YOUR_YOUTUBE_API_KEY
+
+server:
+  port: 8080
