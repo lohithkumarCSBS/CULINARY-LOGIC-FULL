@@ -1,0 +1,17 @@
+# Frontend
+culinary-logic-ui/node_modules/
+culinary-logic-ui/dist/
+
+# Backend
+api/api/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+culinary-logic-ui/.env
+culinary-logic-ui/.env.*
+!culinary-logic-ui/.env.example
+
+# Logs
+*.log
